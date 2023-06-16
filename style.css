@@ -1,0 +1,267 @@
+.rectangle1 {
+    position: absolute;
+    width: 1440px;
+    height: 70px;
+    left: 0px;
+    top: 0px;
+   
+    padding-top: 20px;
+    padding-left: 30px;
+  
+    background: #F0F0F0;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+body {
+    overflow-x: hidden;
+}
+
+
+.home {
+    
+    position: absolute;
+    left: 79.17%;
+    right: 19.65%;
+    top: 5.19%;
+    bottom: 96.8%;
+
+    font-family: 'Font Awesome 5 Free';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 15px;
+    line-height: 17px;
+    letter-spacing: 0.02em;
+
+    color: #FFFFFF;
+
+}
+
+.setting {
+    position: absolute;
+    left: 82.92%;
+    right: 16.04%;
+    top: 5.19%;
+    bottom: 96.8%;
+
+    font-family: 'Font Awesome 5 Free';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 15px;
+    line-height: 17px;
+    letter-spacing: 0.02em;
+
+    color: #FFFFFF;
+
+}
+.bell {
+    position: absolute;
+    left: 87%;
+    right: 30.04%;
+    top: 5%;
+    bottom: 96.43%;
+
+    background: #F0F0F0;
+
+}
+.image {
+    
+    position: absolute;
+    left: 91%;
+    right: 30.04%;
+    top: 5%;
+    bottom: 96.43%;
+
+    background: #F0F0F0;
+}
+.buttons {
+     
+    position: absolute;
+    left: 96%;
+    right: 28.04%;
+    top: 6.50%;
+    bottom: 96.43%;
+
+    background: #F0F0F0;
+    display: flex;
+    flex-direction: column;
+    justify-items: space-between;
+    gap: 2px;
+}
+/* .dot2 {
+     
+    position: absolute;
+    left: 96%;
+    right: 30.04%;
+    top: 7%;
+    bottom: 100%
+}
+.dot3 {
+     
+    position: absolute;
+    left: 96%;
+    right: 30.04%;
+    top: 5%;
+    bottom: 98%;
+} */
+
+
+/* side bar all complete content */
+
+.headLI {
+    
+    position: absolute;
+    width: 309px;
+    height: 24px;
+    left: 32px;
+    top: 161px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 18px;
+    line-height: 26px;
+/* identical to box height */
+
+    letter-spacing: 0.02em;
+
+    color: #000000;
+}
+.insideLI {
+    position: absolute;
+    width: 309px;
+    height: 110px;
+    left: 32px;
+    top: 203px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+
+    color: #000000;
+
+}
+.sidebar {
+    
+    position: absolute;
+    width: 392px;
+    height: 692px;
+    left: 0px;
+    top: 90px;
+    background: #FDFDFD;
+    -webkit-box-shadow: 2px 0px 24px 0px rgba(0,0,0,0.64); 
+    box-shadow: 2px 0px 24px 0px rgba(0,0,0,0.64);
+    border-radius: 20px 20px 20px 20px;
+}
+
+.sidebarTitle {
+    padding: 1px;
+    background: black;
+    border-radius: 0px 20px 20px 0px;
+}
+
+.sidebarTitleContent {
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    padding-left: 18px;
+    
+    letter-spacing: 0.02em;
+    
+    color: #FFFFFF;
+}
+
+/* side bar 2 */
+.sidebar2 {
+    
+    position: absolute;
+    width: 120px;
+    height: 692px;
+    left: 0px;
+    top: 90px;
+    /* left: -100; */
+    background: #FDFDFD;
+    -webkit-box-shadow: 2px 0px 24px 0px rgba(0,0,0,0.64); 
+    box-shadow: 2px 0px 24px 0px rgba(0,0,0,0.64);
+    border-radius: 20px 20px 20px 20px;
+}
+
+
+.sidebarTitle2 {
+    padding: 1px;
+    background: black;
+    border-radius: 0px 20px 20px 0px;
+}
+/* journey board */
+.sidebarTitleContent2 {
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    padding-left: 18px;
+    
+    /* identical to box height */
+    
+    letter-spacing: 0.02em;
+    
+    color: #ffffff;
+}
+
+
+.DivOfTheheading {
+    position: absolute;
+width: 466px;
+height: 42px;
+left: 187px;
+top: 108px;
+
+font-family: Verdana, Geneva, sans-serif;
+font-size: 21px;
+letter-spacing: 0.8px;
+word-spacing: -1.6px;
+color: #0029FF;
+font-weight: 700;
+text-decoration: none solid rgb(68, 68, 68);
+font-style: normal;
+font-variant: small-caps;
+text-transform: capitalize;
+}
+
+#img2 {
+    margin-left: 60px;
+}
+
+
+#img1 {
+    position: absolute;
+    top: 15px;
+    left: 350px;
+    width: 30px;
+}
+.sideBarImg {
+    
+    box-sizing: border-box;
+    position: absolute;
+    width: 68px;
+    height: 68px;
+    left: 25px;
+    top: 110px;
+    border: 1px solid #0029FF;
+    border-radius: 20px;
+}
+
+.sideBarImg2 {
+    
+position: absolute;
+width: 12px;
+height: 54px;
+left: 55px;
+top: 130px;
+}
