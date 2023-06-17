@@ -1,10 +1,11 @@
+
 .rectangle1 {
-    position: absolute;
-    width: 1440px;
+    position: fixed;
+    width: 1300px;
     height: 70px;
     left: 0px;
     top: 0px;
-   
+    z-index: 2;
     padding-top: 20px;
     padding-left: 30px;
   
@@ -19,12 +20,12 @@ body {
 
 .home {
     
-    position: absolute;
+    position: fixed;
     left: 79.17%;
     right: 19.65%;
     top: 5.19%;
     bottom: 96.8%;
-
+    z-index: 2;
     font-family: 'Font Awesome 5 Free';
     font-style: normal;
     font-weight: 900;
@@ -37,12 +38,12 @@ body {
 }
 
 .setting {
-    position: absolute;
+    position: fixed;
     left: 82.92%;
     right: 16.04%;
     top: 5.19%;
     bottom: 96.8%;
-
+    z-index: 2;
     font-family: 'Font Awesome 5 Free';
     font-style: normal;
     font-weight: 900;
@@ -54,56 +55,51 @@ body {
 
 }
 .bell {
-    position: absolute;
+    position: fixed;
     left: 87%;
     right: 30.04%;
     top: 5%;
     bottom: 96.43%;
-
+    z-index: 2;
     background: #F0F0F0;
 
 }
 .image {
     
-    position: absolute;
+    position: fixed;
     left: 91%;
-    right: 30.04%;
+    right: 30%;
     top: 5%;
     bottom: 96.43%;
-
+    z-index: 2;
     background: #F0F0F0;
 }
 .buttons {
      
-    position: absolute;
+    position: fixed;
     left: 96%;
     right: 28.04%;
     top: 6.50%;
     bottom: 96.43%;
-
+    z-index: 2;
     background: #F0F0F0;
     display: flex;
     flex-direction: column;
     justify-items: space-between;
     gap: 2px;
 }
-/* .dot2 {
-     
-    position: absolute;
-    left: 96%;
-    right: 30.04%;
-    top: 7%;
-    bottom: 100%
-}
-.dot3 {
-     
-    position: absolute;
-    left: 96%;
-    right: 30.04%;
-    top: 5%;
-    bottom: 98%;
-} */
 
+.img2 {
+    margin-left: 60px;
+}
+
+
+.img1 {
+    position: absolute;
+    top: 15px;
+    left: 350px;
+    width: 30px;
+}
 
 /* side bar all complete content */
 
@@ -147,8 +143,7 @@ body {
     
     position: absolute;
     width: 392px;
-    height: 692px;
-    left: 0px;
+    height: 492px;
     top: 90px;
     background: #FDFDFD;
     -webkit-box-shadow: 2px 0px 24px 0px rgba(0,0,0,0.64); 
@@ -181,10 +176,10 @@ body {
     
     position: absolute;
     width: 120px;
-    height: 692px;
+    height: 492px;
     left: 0px;
     top: 90px;
-    /* left: -100; */
+
     background: #FDFDFD;
     -webkit-box-shadow: 2px 0px 24px 0px rgba(0,0,0,0.64); 
     box-shadow: 2px 0px 24px 0px rgba(0,0,0,0.64);
@@ -214,54 +209,321 @@ body {
     color: #ffffff;
 }
 
-
-.DivOfTheheading {
-    position: absolute;
-width: 466px;
-height: 42px;
-left: 187px;
-top: 108px;
-
-font-family: Verdana, Geneva, sans-serif;
-font-size: 21px;
-letter-spacing: 0.8px;
-word-spacing: -1.6px;
-color: #0029FF;
-font-weight: 700;
-text-decoration: none solid rgb(68, 68, 68);
-font-style: normal;
-font-variant: small-caps;
-text-transform: capitalize;
-}
-
-#img2 {
-    margin-left: 60px;
-}
-
-
-#img1 {
-    position: absolute;
-    top: 15px;
-    left: 350px;
-    width: 30px;
-}
-.sideBarImg {
-    
+.sideBarImg{
     box-sizing: border-box;
     position: absolute;
     width: 68px;
     height: 68px;
-    left: 25px;
-    top: 110px;
+    left: 22px;
+    top: 120px;
     border: 1px solid #0029FF;
     border-radius: 20px;
 }
 
-.sideBarImg2 {
+.sideBarImg2{
+    position: absolute;
+    width: 12px;
+    height: 54px;
+    left: 50px;
+    top: 130px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 54px;
+   
+
+    letter-spacing: 0.02em;
+
+    color: #0029FF;
+}
+
+.sidebar,
+.sidebar2 {
+    position: fixed;
+    transition: transform 0.3s ease;
+    z-index: 2;
+}
+
+.sidebar {
+    transform: translateX(0);
+    z-index: 2;
+
+}
+
+.sidebar2 {
+    transform: translateX(100%);
+}
+
+
+/* main body */
+
+/* heading technical project */
+.heading {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-style: normal;
+    font-weight: bolder;
+    font-size: 28px;
+    line-height: 55px;
+    letter-spacing: 0.02em;
+    color: #0029FF;
+
+}
+
+.DivOfTheheading {
+    position: absolute;
+    width: 466px;
+    height: 42px;
+    left: 187px;
+    top: 90px;
+
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-style: normal;
+    font-weight: bolder;
+    font-size: 25px;
+    line-height: 48px;
+    letter-spacing: 0.02em;
+    margin-left: -5%;
+    color: #0029FF;
+}
+
+.DivOfTheContainer {
+    position: absolute;
+    width: 950px;
+    height: 135px;
+    left: 187px;
+    top: 187px;
+    margin-left: -5%;
+    background: #E9ECEF;
+    border-radius: 5px;
+
+}
+
+.ContainerHeading {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bolder;
+    font-size: x-large;
+    padding-left: 25px;
+}
+
+.ContainerParagraph {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    letter-spacing: 0.02em;
+    padding-left: 25px;
+    color: #000000;
+}
+
+/* main four box  of this page */
+
+
+/* first box */
+.bodyPart1 {
     
-position: absolute;
-width: 12px;
-height: 54px;
-left: 55px;
-top: 130px;
+    position: absolute;
+    width: 448px;
+    height: 550px;
+    left: 159px;
+    top: 397px;
+
+    background: #FDFDFD;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px -4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 15px;
+}
+
+.bodyHeading1 {
+    position: absolute;
+    width: 449px;
+    height: 50px;
+    background: #000000;
+    border-radius: 15px 15px 0px 0px;
+}
+.Bhead1 {
+
+    padding-left: 105px;
+    
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 22px;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+}
+
+.bodyPart1Discription1 {
+    position: absolute;
+    width: 453px;
+    height: 83px;
+    left: 29px;
+    top: 86px;
+
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 16px;
+    line-height: 22px;
+    letter-spacing: 0.02em;
+
+    color: #000000;
+}
+/* second box */
+
+.bodyPart2 {
+        
+    position: absolute;
+    width: 448px;
+    height: 550px;
+    left: 647px;
+    top: 397px;
+
+    background: #FDFDFD;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px -4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 15px;
+}
+
+.bodyHeading2 {
+    position: absolute;
+    width: 449px;
+    height: 50px;
+    background: #000000;
+    border-radius: 15px 15px 0px 0px;
+}
+
+
+.Bhead2 {
+
+    padding-left: 170px;
+    
+
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 22px;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+}
+
+.bodyPart1Discription2 {
+    position: absolute;
+    width: 453px;
+    height: 83px;
+    left: 29px;
+    top: 86px;
+
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 16px;
+    line-height: 22px;
+    letter-spacing: 0.02em;
+
+    color: #000000;
+}
+.bodyPart1Video1 {
+    position: absolute;
+    width: 450px;
+    height: 250px;
+    top: 180px;
+}
+
+/* third box */
+.bodyPart3 {
+    position: absolute;
+    width: 448px;
+    height: 550px;
+    left: 159px;
+    top: 1034px;
+
+    background: #FDFDFD;
+    box-shadow: 1px 1px 4px 2px rgba(0, 0, 0, 0.25);
+    border-radius: 15px;
+}
+.bodyHeading3 {
+    position: absolute;
+    width: 449px;
+    height: 50px;
+
+    background: #000000;
+    border-radius: 15px 15px 0px 0px;
+}
+
+.Bhead3 {
+
+    padding-left: 130px;
+    
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 22px;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+}
+
+.bodyPart1Discription3 {
+    position: absolute;
+    width: 453px;
+    height: 83px;
+    left: 29px;
+    top: 86px;
+
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 16px;
+    line-height: 22px;
+    letter-spacing: 0.02em;
+
+    color: #000000;
+}
+
+
+/* fourth box */
+
+.bodyPart4 {
+    position: absolute;
+    width: 448px;
+    height: 550px;
+    left: 647px;
+    top: 1034px;
+
+    background: #FDFDFD;
+    box-shadow: 1px 1px 4px 2px rgba(0, 0, 0, 0.25);
+    border-radius: 15px;
+}
+
+.bodyHeading4 {
+    position: absolute;
+    width: 449px;
+    height: 50px;
+
+    background: #000000;
+    border-radius: 15px 15px 0px 0px;
+}
+
+.Bhead4 {
+
+    padding-left: 180px;
+    
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 22px;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+}
+
+.bodyPart1Discription4 {
+    position: absolute;
+    width: 453px;
+    height: 83px;
+    left: 29px;
+    top: 86px;
+
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 16px;
+    line-height: 22px;
+    letter-spacing: 0.02em;
+
+    color: #000000;
 }
