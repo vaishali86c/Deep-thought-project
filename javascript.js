@@ -1,9 +1,3 @@
-// // Get references to the sidebars and the toggle button
-// const sidebar1 = document.querySelector('.sidebar');
-// const sidebar2 = document.querySelector('.sidebar2');
-// const toggleButton = document.getElementById('toggleSidebarButton');
-// const toggleButton2 = document.getElementById('toggleSidebarButton2');
-
 const toggleSidebarButton1 = document.getElementById('toggleSidebarButton1'); //small
 const toggleSidebarButton2 = document.getElementById('toggleSidebarButton2'); //big
 const sidebar1 = document.querySelector('.sidebar'); //big
